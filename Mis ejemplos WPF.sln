@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1PrimeraAplicacion", "1PrimeraAplicacion\1PrimeraAplicacion.csproj", "{28E8AE37-4829-4B0A-8B24-3356AA138402}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2ContextMenu", "2ContextMenu\2ContextMenu.csproj", "{4D6C970F-57AC-413D-BEC4-76EB23A69CE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3RichTextBox", "3RichTextBox\3RichTextBox.csproj", "{109BD8B6-8B31-4968-B73C-D7C026D330CA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{28E8AE37-4829-4B0A-8B24-3356AA138402}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28E8AE37-4829-4B0A-8B24-3356AA138402}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28E8AE37-4829-4B0A-8B24-3356AA138402}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D6C970F-57AC-413D-BEC4-76EB23A69CE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D6C970F-57AC-413D-BEC4-76EB23A69CE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D6C970F-57AC-413D-BEC4-76EB23A69CE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D6C970F-57AC-413D-BEC4-76EB23A69CE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{109BD8B6-8B31-4968-B73C-D7C026D330CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{109BD8B6-8B31-4968-B73C-D7C026D330CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{109BD8B6-8B31-4968-B73C-D7C026D330CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{109BD8B6-8B31-4968-B73C-D7C026D330CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
