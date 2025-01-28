@@ -15,9 +15,17 @@
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        <Label Grid.Column="1">Nombres</Label> <!-- lo pone en la columna que queramos-->
+        <Label>Nombres</Label>                  <!-- Grid.row lo pone en la columna que queramos-->
         <ListBox Grid.Row="1" x:Name="lstName"/><!-- x:Name para ponerle un nombre desde el código-->
-        <StackPanel Grid.Row="1" Grid.Column="1" Margin="5,0,0,0"/>
+        <StackPanel Grid.Row="1" Grid.Column="1" Margin="5,0,0,0">
+            <TextBox TextWrapping="Wrap" Text="TextBox" Width="120" x:Name="txtName"/>
+            <Button x:Name="btnAdd" Margin="0,5,0,0" Click="btnAdd_Click" > <!--Click se añade al darle doble click al boton para añadirle el método-->
+                Add Name        <!--otra manera de cambiarle el texto sin el content-->
+            </Button>
+
+
+        </StackPanel><!--stack panel para contener elementos, si no solo dejaría 1 por grid-->
+
 
 
     </Grid>
