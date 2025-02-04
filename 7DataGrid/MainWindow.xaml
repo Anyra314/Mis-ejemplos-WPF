@@ -7,6 +7,14 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="9*"/>
+        </Grid.RowDefinitions>
+        <StackPanel>
+            <Button Content="Añadir" x:Name="anadir" Click="anadir_Click"/>
+            <Button Content="Borrar filas seleccionadas" x:Name="borrar" Click="borrar_Click"/>
+        </StackPanel>
+        <DataGrid x:Name="dgPersonas" Grid.Row="1"/>
     </Grid>
 </Window>
