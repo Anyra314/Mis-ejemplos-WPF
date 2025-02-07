@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6EstacionMetereologica", "6
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7DataGrid", "7DataGrid\7DataGrid.csproj", "{B5742F7E-72CF-4957-A217-EC750190CFAB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8Estilos", "8Estilos\8Estilos.csproj", "{6B956447-E774-4633-A513-9A3E3904EDB0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{B5742F7E-72CF-4957-A217-EC750190CFAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5742F7E-72CF-4957-A217-EC750190CFAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5742F7E-72CF-4957-A217-EC750190CFAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B956447-E774-4633-A513-9A3E3904EDB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B956447-E774-4633-A513-9A3E3904EDB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B956447-E774-4633-A513-9A3E3904EDB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B956447-E774-4633-A513-9A3E3904EDB0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

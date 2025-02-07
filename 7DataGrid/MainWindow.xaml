@@ -7,14 +7,26 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="511*"/>
+            <ColumnDefinition Width="171*"/>
+            <ColumnDefinition Width="118*"/>
+        </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
             <RowDefinition Height="9*"/>
         </Grid.RowDefinitions>
-        <StackPanel>
+        <StackPanel Grid.ColumnSpan="3">
             <Button Content="Añadir" x:Name="anadir" Click="anadir_Click"/>
             <Button Content="Borrar filas seleccionadas" x:Name="borrar" Click="borrar_Click"/>
         </StackPanel>
-        <DataGrid x:Name="dgPersonas" Grid.Row="1"/>
+        <DataGrid x:Name="dgPersonas" Grid.ColumnSpan="3" Margin="0,43,0,0" Grid.RowSpan="2">
+            <DataGrid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF4B7547" Offset="0.93"/>
+                    <GradientStop Color="#FFC4EFA2" Offset="0.505"/>
+                </LinearGradientBrush>
+            </DataGrid.Background>
+        </DataGrid>
     </Grid>
 </Window>

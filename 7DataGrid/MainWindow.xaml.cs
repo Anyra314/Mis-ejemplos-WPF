@@ -41,10 +41,10 @@ namespace _7DataGrid
         {
             if(dgPersonas.SelectedItems.Count > 0)
             {
-                var seleccionados=dgPersonas.SelectedItems.Cast<Persona>().ToList();
-                foreach (Persona persona in seleccionados)
+                /* Borra por el final */
+                for (int i= dgPersonas.SelectedItems.Count - 1;i>=0;i--)
                 {
-                    ocPersonas.Remove(persona);
+                    LogicaNegocio.removePersona((Persona)dgPersonas.SelectedItems[i]);
                 }
             }
         }
