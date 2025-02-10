@@ -1,0 +1,25 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_9CrystalReports"
+        xmlns:Viewer="clr-namespace:SAPBusinessObjects.WPF.Viewer;assembly=SAPBusinessObjects.WPF.Viewer" x:Class="_9CrystalReports.WindowPaisesContinenteParametroDSN"
+        mc:Ignorable="d"
+        Title="WindowPaisesContinenteParametroDSN" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="9*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Viewer:CrystalReportsViewer Grid.Row="1" Grid.ColumnSpan="3" x:Name="crvPaises"/>
+        <Label Content="Continente" Grid.Column="0"/>
+        <ComboBox x:Name="cbxContinente" Grid.Column="1"/>
+        <Button Content="Mostrar" Grid.Column="2" Click="Button_Click"/>
+    </Grid>
+</Window>

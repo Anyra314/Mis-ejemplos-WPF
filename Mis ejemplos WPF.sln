@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7DataGrid", "7DataGrid\7Dat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8Estilos", "8Estilos\8Estilos.csproj", "{6B956447-E774-4633-A513-9A3E3904EDB0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9CrystalReports", "9CrystalReports\9CrystalReports.csproj", "{7A4E29BF-F184-448C-9F87-23B591A83AE0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{6B956447-E774-4633-A513-9A3E3904EDB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B956447-E774-4633-A513-9A3E3904EDB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B956447-E774-4633-A513-9A3E3904EDB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A4E29BF-F184-448C-9F87-23B591A83AE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A4E29BF-F184-448C-9F87-23B591A83AE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A4E29BF-F184-448C-9F87-23B591A83AE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A4E29BF-F184-448C-9F87-23B591A83AE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
